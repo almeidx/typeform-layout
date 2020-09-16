@@ -8,7 +8,7 @@
   },
   "homepage": "https://typeform.almeidx.me",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
     "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
